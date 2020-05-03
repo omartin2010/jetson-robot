@@ -1,0 +1,9 @@
+[submodule "jetson-object-detection"]
+	path = jetson-object-detection
+	url = git@github.com:omartin2010/jetson-object-detection.git
+[submodule "jetson-model-serving"]
+	path = jetson-model-serving
+	url = git@github.com:omartin2010/jetson-model-serving.git
+[submodule "roboteam"]
+	path = roboteam
+	url = git@github.com:lynn-orrell/roboteam.git
