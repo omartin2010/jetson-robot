@@ -10,3 +10,6 @@
 [submodule "jetson-motion-driver"]
 	path = jetson-motion-driver
 	url = git@github.com:omartin2010/jetson-motion-driver.git
+[submodule "jetson-task-manager"]
+	path = jetson-task-manager
+	url = git@github.com:omartin2010/jetson-task-manager.git
