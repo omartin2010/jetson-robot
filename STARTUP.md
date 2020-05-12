@@ -6,6 +6,7 @@ docker run -d --restart unless-stopped \
     -p 9001:9001 \
     --memory 50m \
     --cpus=0.25 \
+    --log-driver json-file --log-opt max-size=500k \
     -v /home/omartin/proj/mosquitto:/mosquitto \
     eclipse-mosquitto:latest
 ```
